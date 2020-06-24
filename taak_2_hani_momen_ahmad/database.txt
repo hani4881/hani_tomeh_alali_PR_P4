@@ -1,0 +1,44 @@
+ red:
+
+
+ CREATE TABLE kableheklist (
+    -> id INT NOT NULL AUTO_INCREMENT,
+    -> lenght INT,
+    -> lenghts INT,
+    -> Roest INT,
+    -> Vermonderde INT,
+    -> meetouten INT,
+    -> Totale FLOAT,
+    -> type VARCHAR(80),
+    -> Positie INT,
+    -> Datum INT,
+    -> Kabelleverancier VARCHAR(80),
+    -> waannemingen VARCHAR(80),
+    -> Handtekening VARCHAR(80),
+    -> bdrijfsuren INT,
+    -> Redenen VARCHAR(80),
+    -> PRIMARY KEY(id)
+    -> );
+
+
+green:
+
+CREATE TABLE hijskraangegevens (
+    -> id INT NOT NULL AUTO_INCREMENT,
+    -> volgnummer INT,
+    -> Banden INT,
+    -> Stempels INT,
+    -> Rupsen INT,
+    -> Hoofdgiekm INT,
+    -> Mechanischesectiem INT,
+    -> Hulpgiekm VARCHAR(80),
+    -> Totalegieklengtem INT,
+    -> Hoofdgiekgr INT,
+    -> Zwenkvoorsector VARCHAR(80),
+    -> Aantal VARCHAR(80),
+    -> Hoekvoorsector VARCHAR(80),
+    -> Eigenmassa INT,
+    -> Toelaatbare VARCHAR(80),
+    -> PRIMARY KEY(id)
+    -> );
+Query OK, 0 rows affected (0.203 sec)
